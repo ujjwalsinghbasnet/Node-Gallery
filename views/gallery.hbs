@@ -1,0 +1,19 @@
+<div class="row">
+  <h5>{{error}}</h5>
+  <form action="/upload" method="POST", enctype="multipart/form-data">
+    <input type="file" class = "form-control-file"name="avatar">
+    <input type="submit" value="Upload" class="btn btn-primary mt-2">
+  </form>
+</div>
+<div class="row mt-3">
+    {{#each images}}
+    <div class="col-md-4 col-sm-6 col-lg-3">
+        <div class="img-holder">
+            <img src={{this.avatarPath}} class='img-fluid img mt-2'>
+            {{!-- <i class="fa fa-trash-o" aria-hidden="true"></i> --}}
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+
