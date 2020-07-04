@@ -9,5 +9,5 @@ It is a simple gallery that uses mongodb for storage.
 To run the application run the following comman in the terminal: <br/>
 `npm start`
 
-Ther's no styling and delete option for now. Also, use your own database link in .env folder or just put 
+Ther's no styling and delete option for now. Also, use your own database link in .env file or just put 
 directly into app.js file.
