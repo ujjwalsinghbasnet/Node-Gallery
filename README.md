@@ -6,7 +6,7 @@ It is a simple gallery that uses mongodb for storage.
 ## Installation
 `npm install`
 ## Run
-To run the application run the following comman in the terminal: <br/>
+To run the application run the following command in the terminal: <br/>
 `npm start`
 
 Ther's no styling and delete option for now. Also, use your own database link in .env file or just put 
